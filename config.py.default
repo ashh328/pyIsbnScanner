@@ -1,0 +1,29 @@
+# Get Book details via API
+google_api_url = "https://www.googleapis.com/books/v1/volumes?q=isbn:%s"
+spreadsheet_key = ''
+worksheet_id = 'od6'
+columns = {
+    'isbn': 1,
+    'title': 2,
+    'authors': 3,
+    'description': 4,
+    'image': 5,
+    'box': 6,
+    'json': 7,
+    'price': 8, 
+    'date': 9,
+    'time': 10,
+    'ebook': 11,
+    'ebook link': 12
+}
+
+# Google Config Options
+email = '@gmail.com'
+password = ''
+
+null_value = "NULL"
+max_description = 250
+filename = 'isbn_%s.txt'
+
+# eBook Options
+ebook_site = "http://gen.lib.rus.ec/search.php?req=%s+pdf&open=0&view=simple&column[]=identifier"
