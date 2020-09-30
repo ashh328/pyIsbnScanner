@@ -2,7 +2,7 @@
 
 import cv
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     capture = cv.CaptureFromCAM(-1)
     cv.NamedWindow("image")
     while True:
